@@ -4,14 +4,19 @@ import Home from './container/home';
 import About from './container/about';
 import Resume from './container/resume';
 import Projects from './container/projects';
+import Navbar from './components/navbar';
+import './components/navbar.css';
+import Contact from './container/contact';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route index path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/resume' element={<Resume/>} />
-        <Route path='projects' element={<Projects/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
     </div>
   );
