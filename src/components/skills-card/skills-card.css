@@ -1,0 +1,36 @@
+.skills-card ul{
+    list-style-type:none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   padding:0;
+}
+
+.skills-card{
+    background-color: #200563;
+    margin:20px;
+    width:50vh;
+    padding:15px;
+    border-radius: 10%;
+
+}
+
+.skill-item{
+    background-color: beige;
+    border: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size:x-large;
+    margin: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top:4px;
+    border-radius: 10%;
+    color: black;
+}
+
+.skills-card h4{
+    color:white
+}

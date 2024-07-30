@@ -4,9 +4,12 @@ import Home from './container/home';
 import About from './container/about';
 import Resume from './container/resume';
 import Projects from './container/projects';
-import Navbar from './components/navbar';
-import './components/navbar.css';
+import Navbar from './components/navbar/navbar';
+import './components/navbar/navbar.css';
 import Contact from './container/contact';
+// index.js or App.js
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 function App() {
   return (
     <div className="App">
