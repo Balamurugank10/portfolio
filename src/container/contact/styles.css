@@ -1,0 +1,58 @@
+.icons-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-top: 10px; /* Margin above the icons */
+}
+
+.icons a {
+    color: white; /* Icon color */
+    transition: transform 0.2s; /* Smooth transition for scaling */
+}
+
+.icons a:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.contact {
+    background-color: cadetblue;
+    margin: 0 25%;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-header, .contact-footer {
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.form-control-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.receiver-email,
+.receiver-name,
+.subject,
+.message,
+.send-email {
+    margin: 5px 0; /* Add some margin for spacing */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.send-email {
+    background-color: white;
+    color: brown; /* Change according to your theme */
+    border: none;
+    cursor: pointer;
+}

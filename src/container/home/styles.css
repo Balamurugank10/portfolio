@@ -1,0 +1,21 @@
+.home{
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+    height: 90vh;
+    
+    align-items: center;
+}
+.home-left{
+    text-align: left;
+}
+.user-image{
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vh;
+    border-color: azure;
+    border: 1px;
+    margin: 4px;
+    background-color: brown;
+   
+}

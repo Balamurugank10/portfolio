@@ -5,3 +5,9 @@
 h1{
     font-weight: bold;
 }
+
+.skills-component{
+    height: 83vh;
+    background-color: rgb(45, 107, 161);
+    padding-top: 8vh;
+}
