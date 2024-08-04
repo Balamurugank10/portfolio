@@ -1,6 +1,7 @@
 .skills-card-in{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 h1{
     font-weight: bold;

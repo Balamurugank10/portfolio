@@ -1,0 +1,41 @@
+.project-sections{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.project-header{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.projects{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+padding: 50px;   
+}
+
+.project-description{
+    display: flex;
+    font-size: x-large;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.project-container{
+    
+}

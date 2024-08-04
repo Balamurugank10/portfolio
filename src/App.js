@@ -10,6 +10,8 @@ import Contact from './container/contact';
 // index.js or App.js
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
+
 function App() {
   return (
     <div className="App">
